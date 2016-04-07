@@ -543,14 +543,16 @@ do {
         <a href="?genqty=<?php echo $_GET[genqty]; ?>&amp;button3=<?php echo $_GET[button3]; ?>&amp;genid=<?php echo $_GET[genid]; ?>&amp;gen=<?php echo $_GET[gen]; ?>&amp;genref=<?php echo $_GET[genref]; ?>&amp;section=5&amp;genstack=<?php echo $_GET[genstack]; ?>"><button type="button" class="btn btn-primary"> Next - Print or E-mail Summary!</button></a></td>
 </div>
 <?php
-      echo 'noTSX' . '&nbsp;' . $noTSX;
 
-      if ($goAwayTsx == false) {
-echo 'false';
-      }
-      if ($goAwayTsx == true) {
-echo 'true';
-      }
+// debug check by CP
+//       echo 'noTSX' . '&nbsp;' . $noTSX;
+
+//       if ($goAwayTsx == false) {
+// echo 'false';
+//       }
+//       if ($goAwayTsx == true) {
+// echo 'true';
+//       }
 ?>
 <?php
 // }
